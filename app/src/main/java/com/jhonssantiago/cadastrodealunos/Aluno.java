@@ -7,7 +7,7 @@ public class Aluno {
     private String curso;
     private String disciplina;
     private String nota;
-    private String status;
+    private String status = "";
 
     public Aluno(String nome, String curso, String disciplina, String nota) {
         this.nome = nome;

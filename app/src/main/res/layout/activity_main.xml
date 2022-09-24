@@ -36,17 +36,14 @@
             android:layout_height="wrap_content"
             android:text="Sistemas para Internet"
             android:id="@+id/RBSistemas"
-            android:onClick="escolher"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Outros"
+            android:text="Outro"
             android:id="@+id/RBOutros"
-            android:onClick="escolher"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
-
     </RadioGroup>
 
     <Spinner
@@ -60,8 +57,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
         android:id="@+id/lineView"
+        android:visibility="invisible"
         android:orientation="horizontal">
 
         <TextView
@@ -74,7 +71,8 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Digite a nota"
+            android:hint="0"
+            android:inputType="number"
             android:layout_weight="2"
             android:gravity="center"
             android:id="@+id/ETNota"
@@ -83,8 +81,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Salvar"
-            android:layout_weight="2"
+            android:text="SALVAR"
+            android:layout_weight="1"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:id="@+id/BSalvar"/>
 
@@ -102,6 +100,33 @@
         android:layout_height="wrap_content"
         android:visibility="invisible"
         android:id="@+id/PBcarregando"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tabela"
+        android:visibility="invisible">
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NOME"
+                android:gravity="center"
+                android:background="@color/purple_200"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="STATUS"
+                android:gravity="center"
+                android:background="@color/purple_200"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        </TableRow>
+    </TableLayout>
 
     <ListView
         android:layout_width="match_parent"
