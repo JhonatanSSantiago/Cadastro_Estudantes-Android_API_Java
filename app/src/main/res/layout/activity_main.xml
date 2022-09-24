@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETNome"
+        android:hint="Digite o nome"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Curso"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sistemas para Internet"
+            android:id="@+id/RBSistemas"
+            android:onClick="escolher"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outros"
+            android:id="@+id/RBOutros"
+            android:onClick="escolher"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    </RadioGroup>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/SDisciplinas">
+
+    </Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/lineView"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota: "
+            android:layout_weight="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Digite a nota"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:id="@+id/ETNota"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:layout_weight="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/BSalvar"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:text="RELATORIO"
+        android:id="@+id/BRelatorio"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/PBcarregando"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/ListView"/>
+
+
+
+
+</LinearLayout>

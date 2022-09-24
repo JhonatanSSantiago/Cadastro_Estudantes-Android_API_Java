@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Cadastro de Alunos</string>
+    <string-array name="disciplinas">
+        <item>1ºP - Fundamentos de Redes de Computadores</item>
+        <item>1ºP - Tendências Tecnológicas para o Mercado de TI</item>
+        <item>1ºP - Introdução a Computação</item>
+        <item>1ºP - Informática Instrumental</item>
+        <item>1ºP - Introdução à Lógica</item>
+        <item>1ºP - Inglês Técnico</item>
+        <item>2ºP - Fundamentos e Projeto de Banco de Dados</item>
+        <item>2ºP - Análise de Sistemas</item>
+        <item>2ºP - Introdução à Programação</item>
+        <item>2ºP - Programação Orientada a Objetos</item>
+        <item>2ºP - Programação Básica para Web</item>
+        <item>3ºP - Introdução à Conectividade</item>
+        <item>3ºP - Gerenciamento de Dados para Web</item>
+        <item>3ºP - Programação para Banco de Dados</item>
+        <item>3ºP - Administração de Sistemas Proprietário</item>
+        <item>3ºP - Programação para Web Designers</item>
+        <item>3ºP - Programação para Web I</item>
+        <item>4ºP - Sistemas Distribuídos e SOA</item>
+        <item>4ºP - Projeto de Sistemas</item>
+        <item>4ºP - Testes de Software</item>
+        <item>4ºP - Projeto de Interface Web</item>
+        <item>4ºP - Programação para Web II</item>
+        <item>4ºP - Eletiva</item>
+        <item>5ºP - Segurança de Sistemas</item>
+        <item>5ºP - Infraestrutura para Sistemas Web</item>
+        <item>5ºP - Administração de Banco de Dados</item>
+        <item>5ºP - Novas Tecnologias em BD</item>
+        <item>5ºP - Programação para Dispositivos Móveis I</item>
+        <item>5ºP - Metodologias de Desenvolvimento</item>
+        <item>6ºP - Novas Tecnologias em Desenvolvimento para Web</item>
+        <item>6ºP - Gerência de Configuração</item>
+        <item>6ºP - Padrões de Projeto</item>
+        <item>6ºP - Programação para Dispositivos Móveis II</item>
+    </string-array>
+</resources>
