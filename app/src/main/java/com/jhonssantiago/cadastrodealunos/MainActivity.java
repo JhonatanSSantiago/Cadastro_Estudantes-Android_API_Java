@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     //    Aluno a = new Aluno(nome.getText().toString(), RBSistemas.getText().toString(), disciplina, nota.getText().toString());
 
                     Aluno a = new Aluno(nome.getText().toString(), curso, disciplina, nota.getText().toString());
-                    //     Toast.makeText(MainActivity.this, a.toString(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Aluno "+ a.getNome().toString() +"cadastrado com sucesso!", Toast.LENGTH_SHORT).show();
                     alunoArrayList.add(a);
                     limparCampos();
                 }
